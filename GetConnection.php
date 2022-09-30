@@ -10,5 +10,5 @@ function getConnection(): PDO
     $password = "arifin";
 
     // membuat koneksi ke database
-    return new PDO("mysql:host=$host:$port;dbName=$database", $username, $password);
+    return new PDO("mysql:host=$host:$port;dbname=$database", $username, $password);
 }

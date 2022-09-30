@@ -8,7 +8,7 @@ $password = "arifin";
 
 try {
     // membuat koneksi ke database
-    $connection = new PDO("mysql:host=$host:$port;dbName=$database", $username, $password);
+    $connection = new PDO("mysql:host=$host:$port;dbname=$database", $username, $password);
     echo "Sukses terkoneksi ke database MySQL" . PHP_EOL;
 
     // menutup koneksi ke database
